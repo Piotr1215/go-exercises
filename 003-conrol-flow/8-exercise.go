@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
-
 )
 
-func main()  {
+func main() {
 	x := 10
 	y := 10
 

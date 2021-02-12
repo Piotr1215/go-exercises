@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
-
 )
 
-func main()  {
+func main() {
 	var favSport string = "Judo"
 
 	switch favSport {

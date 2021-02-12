@@ -8,7 +8,7 @@ var x age
 var y int
 
 // Printf formats string, Println just prints value
-func main(){
+func main() {
 	fmt.Println(x)
 	fmt.Printf("%T\t", x)
 
