@@ -1,4 +1,4 @@
-package structsFun
+package exercises
 
 import (
 	"fmt"

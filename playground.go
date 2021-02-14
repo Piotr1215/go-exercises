@@ -1,38 +1,19 @@
 package main
 
 import (
-	"fmt"
-	"go-learning/exercises"
+	ex "goLearning/exercises"
 )
 
 func main() {
 
-controlFlow.SimpleLoop()
-fmt.Println("Costam")
-	/*
-	nestedLoops()
-	howOldInYear()
-	howOldInYearWithBreak()
-	printModuloFour()
-	capitalizerCheck("Atosik")
-	simpleSwitch()
-	favoriteSportSwitch("Judo")
-	logicDefaults()
-	intSlice()
-	slicesOfSlice()
-	appendToSlice()
-	manipulateSlice()
-	printStates()
-	makeExample()
-	mapExample()
-	mapCommaOkCheck()
-		people := createSliceOfPerson()
-	fmt.Println(people)
+	ex.Variables()
+	ex.ControlFlow()
 
-	for _, v := range people {
-		fmt.Println(v.firstName, "is", v.age, "years old")
-	}
+	/* 		people := createSliceOfPerson()
+	   		fmt.Println(people)
 
-	createMapFromPersons()*/
+	   		for _, v := range people {
+	   			fmt.Println(v.firstName, "is", v.age, "years old")
+	   		} */
 
 }

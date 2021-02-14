@@ -1,3 +1,3 @@
-module go-learning
+module goLearning
 
 go 1.15

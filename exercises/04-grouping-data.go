@@ -1,4 +1,4 @@
-package groupingData
+package exercises
 
 import (
 	"fmt"
