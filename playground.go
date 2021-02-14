@@ -1,14 +1,13 @@
 package main
 
-import (
-	ex "goLearning/exercises"
-)
+import ex "goLearning/exercises"
 
 func main() {
 
-	ex.Variables()
-	ex.ControlFlow()
-	ex.GroupingData()
+	// ex.Variables()
+	// ex.ControlFlow()
+	// ex.GroupingData()
+	ex.Structs()
 
 	/* 		people := createSliceOfPerson()
 	   		fmt.Println(people)
