@@ -4,12 +4,12 @@ Exercises based on https://www.udemy.com/share/1013gwCUcSdVxRRnQ=/
 
 ## Topics
 
-- [x] [Variables, values, types](01-variables-value-types.go)
+- [x] [Variables, values, types](./exercises/01-variables-value-types.go)
 - [ ] Programming fundamentals
-- [x] Control flow
-- [x] Grouping data
-- [ ] Structs
-- [ ] Functions
+- [x] [Control flow](exercises/03-control-flow.go)
+- [x] [Grouping data](exercises/04-grouping-data.go)
+- [x] [Structs](exercises/05-structs.go)
+- [ ] [Functions](exercises/06-functions.go)
 - [ ] Pointers
 - [ ] Application
 - [ ] Concurrency
