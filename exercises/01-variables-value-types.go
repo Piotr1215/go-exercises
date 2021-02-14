@@ -1,4 +1,4 @@
-package main
+package exercises
 
 import (
 	"fmt"
@@ -14,11 +14,12 @@ type age int
 
 var a age
 
-func main() {
+// Variables executes all variables functions
+func Variables() {
 	assignValues()
 	packageLevelScope()
 	outputFormatting()
-	printVsPrintln()
+	printModuloFour()
 }
 
 func assignValues() {
@@ -43,7 +44,7 @@ func outputFormatting() {
 	fmt.Println(s)
 }
 
-// Printf formats string, Println just prints value
+// PrintVsPrintln Printf formats string, Println just prints value
 func printVsPrintln() {
 	fmt.Println(a)
 	fmt.Printf("%T\t", a)

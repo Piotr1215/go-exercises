@@ -1,4 +1,4 @@
-package main
+package exercises
 
 import (
 	"fmt"
@@ -11,16 +11,6 @@ var mapa = map[int]string{
 	3: "Learning Go",
 }
 
-func main() {
-	intSlice()
-	slicesOfSlice()
-	appendToSlice()
-	manipulateSlice()
-	printStates()
-	makeExample()
-	mapExample()
-	mapCommaOkCheck()
-}
 func mapCommaOkCheck() {
 	// Use v, ok (comma, ok) check to see if value is in a map
 

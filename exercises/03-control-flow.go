@@ -1,11 +1,12 @@
-package main
+package exercises
 
 import (
 	"fmt"
 	"strings"
 )
 
-func main() {
+// ControlFlow executes all control flow functions
+func ControlFlow() {
 	simpleLoop()
 	nestedLoops()
 	howOldInYear()
@@ -17,12 +18,12 @@ func main() {
 	logicDefaults()
 }
 
+// SimpleLoop that's all
 func simpleLoop() {
 	for i := 0; i < 10000; i++ {
 		fmt.Println(i)
 	}
 }
-
 func nestedLoops() {
 	for i := 33; i < 122; i++ {
 		for j := 0; j < 3; j++ {
@@ -52,7 +53,6 @@ func howOldInYearWithBreak() {
 		year++
 	}
 }
-
 func printModuloFour() {
 	for i := 10; i < 100; i++ {
 		if i%4 == 0 {
@@ -60,7 +60,6 @@ func printModuloFour() {
 		}
 	}
 }
-
 func capitalizerCheck(name string) {
 
 	firstLetter := string(name[0])
@@ -71,7 +70,6 @@ func capitalizerCheck(name string) {
 		fmt.Println("Name of", name, "is not correctly capitalized")
 	}
 }
-
 func simpleSwitch() {
 	x := 10
 	y := 10
@@ -81,7 +79,6 @@ func simpleSwitch() {
 		fmt.Println("This is true")
 	}
 }
-
 func favoriteSportSwitch(favSport string) {
 
 	switch favSport {
@@ -93,7 +90,6 @@ func favoriteSportSwitch(favSport string) {
 		fmt.Println("No favourite sport")
 	}
 }
-
 func logicDefaults() {
 	fmt.Println(true && true)
 	fmt.Println(true && false)
