@@ -1,8 +1,10 @@
-# Go exercises
+# Learning Go
+
 Exercises based on https://www.udemy.com/share/1013gwCUcSdVxRRnQ=/
 
-## Exercises
-- [x] Variables, values, types
+## Topics
+
+- [x] [Variables, values, types](01-variables-value-types.go)
 - [ ] Programming fundamentals
 - [x] Control flow
 - [x] Grouping data
@@ -15,3 +17,7 @@ Exercises based on https://www.udemy.com/share/1013gwCUcSdVxRRnQ=/
 - [ ] Error handling
 - [ ] Writing documentation
 - [ ] Testing & benchmarking
+
+## Using functions from another file
+
+https://www.golangprograms.com/how-to-use-function-from-another-file-golang.html
