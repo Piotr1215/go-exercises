@@ -8,6 +8,7 @@ func main() {
 
 	ex.Variables()
 	ex.ControlFlow()
+	ex.GroupingData()
 
 	/* 		people := createSliceOfPerson()
 	   		fmt.Println(people)

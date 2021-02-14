@@ -11,6 +11,18 @@ var mapa = map[int]string{
 	3: "Learning Go",
 }
 
+// GroupingData executes all functions in data grouping file
+func GroupingData() {
+	mapCommaOkCheck()
+	mapExample()
+	makeExample()
+	intSlice()
+	slicesOfSlice()
+	appendToSlice()
+	manipulateSlice()
+	printStates()
+}
+
 func mapCommaOkCheck() {
 	// Use v, ok (comma, ok) check to see if value is in a map
 
