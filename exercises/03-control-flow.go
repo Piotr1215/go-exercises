@@ -3,7 +3,6 @@ package exercises
 import (
 	"fmt"
 	"strings"
-
 )
 
 // ControlFlow executes all control flow functions
@@ -16,7 +15,6 @@ func ControlFlow() {
 	capitalizerCheck("Atosik")
 	simpleSwitch()
 	favoriteSportSwitch("Judo")
-	logicDefaults()
 }
 
 // SimpleLoop that's all
@@ -90,11 +88,4 @@ func favoriteSportSwitch(favSport string) {
 	default:
 		fmt.Println("No favourite sport")
 	}
-}
-func logicDefaults() {
-	fmt.Println(true && true)
-	fmt.Println(true && false)
-	fmt.Println(true || true)
-	fmt.Println(true || false)
-	fmt.Println(!true)
 }

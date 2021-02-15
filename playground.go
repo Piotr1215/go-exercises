@@ -7,7 +7,8 @@ func main() {
 	// ex.Variables()
 	// ex.ControlFlow()
 	// ex.GroupingData()
-	ex.Structs()
+	// ex.Structs()
+	ex.Functions()
 
 	/* 		people := createSliceOfPerson()
 	   		fmt.Println(people)
