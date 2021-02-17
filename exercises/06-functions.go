@@ -7,6 +7,12 @@ type employee struct {
 	Age  int
 }
 
+type persona struct {
+	first string
+	last  string
+	age   int
+}
+
 // Functions runs all funcs in Functions file
 func Functions() {
 	x, y := bar()
@@ -16,6 +22,26 @@ func Functions() {
 	resSlice := sumIntsSlice(sumMe)
 
 	fmt.Println(res, resSlice)
+
+	deferExample()
+
+	piotr := persona{
+		first: "Piotr",
+		last:  "Classified",
+		age:   100,
+	}
+
+	piotr.speak()
+}
+
+func (p persona) speak() {
+	fmt.Println("Hi, my name is", p.first, "and I'm", p.age, "years old")
+}
+
+func deferExample() {
+
+	defer fmt.Println("I finish second although I appear first in the execution flow, the magic of defer!")
+	fmt.Println("I finish first although I appear second in the execution flow, och defer what have u done!")
 }
 
 func (e employee) Init(name string, age int) employee {
