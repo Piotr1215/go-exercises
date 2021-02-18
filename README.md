@@ -21,6 +21,11 @@ Learning topics with random notes and observations.
   - not sure if it's idiomatic, but it's possible to use functional composition in Go, like in F#. Looks like this is under callback pattern.
 
 - [ ] Pointers
+  - <kbd>&</kbd> operator shows variable address
+  - <kbd>*</kbd> returns a value stored at an address
+  - <kbd>*</kbd> with a type like ***int** is a type of pointer
+  - <kbd>*</kbd> with a value like ***valueName** is a de-referencing operator to show what value is under a memory address
+  - use pointers with large data sets, instead of passing it by value (similar as passing by reference in C#?)
 - [ ] Application
 - [ ] Concurrency
 - [ ] Channels
