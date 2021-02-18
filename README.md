@@ -13,10 +13,11 @@ Learning topics with random notes and observations.
 - [x] [Control flow](exercises/03-control-flow.go)
 - [x] [Grouping data](exercises/04-grouping-data.go)
 - [x] [Structs](exercises/05-structs.go)
-- [ ] [Functions](exercises/06-functions.go)
+- [x] [Functions](exercises/06-functions.go)
   - functions that have receiver (operate on a type), are called methods and usually mutate state
   - functions that are not methods try to be "pure functions"
   - > there is no enforcement of pure functions concept in Go
+  - interfaces allow to define behavior and polymorphism like in C#
 
 - [ ] Pointers
 - [ ] Application
