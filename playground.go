@@ -13,6 +13,10 @@ func main() {
 	ex.Structs()
 	fun.Functions()
 	fun.Entry()
+	fun.EntryAnonymous()
+	fun.EntryFirstClassCitizens()
+	fun.CallBackFunc()
+	fun.CodeBlock()
 
 	/* 		people := createSliceOfPerson()
 	   		fmt.Println(people)

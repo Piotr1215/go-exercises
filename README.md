@@ -18,6 +18,7 @@ Learning topics with random notes and observations.
   - functions that are not methods try to be "pure functions"
   - > there is no enforcement of pure functions concept in Go
   - interfaces allow to define behavior and polymorphism like in C#
+  - not sure if it's idiomatic, but it's possible to use functional composition in Go, like in F#. Looks like this is under callback pattern.
 
 - [ ] Pointers
 - [ ] Application
