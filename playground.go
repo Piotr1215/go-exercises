@@ -12,6 +12,7 @@ func main() {
 	// ex.GroupingData()
 	ex.Structs()
 	fun.Functions()
+	fun.Entry()
 
 	/* 		people := createSliceOfPerson()
 	   		fmt.Println(people)
