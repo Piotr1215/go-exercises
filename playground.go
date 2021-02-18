@@ -3,6 +3,7 @@ package main
 import (
 	ex "github.com/Piotr1215/go-learning/basics"
 	fun "github.com/Piotr1215/go-learning/functions"
+	point "github.com/Piotr1215/go-learning/pointers"
 )
 
 func main() {
@@ -17,6 +18,8 @@ func main() {
 	fun.EntryFirstClassCitizens()
 	fun.CallBackFunc()
 	fun.CodeBlock()
+	point.ExamplesOfPointers()
+	point.EntryMethodSet()
 
 	/* 		people := createSliceOfPerson()
 	   		fmt.Println(people)
