@@ -1,8 +1,8 @@
 package main
 
 import (
-	ex "goLearning/basics"
-	fun "goLearning/functions"
+	ex "github.com/Piotr1215/go-learning/basics"
+	fun "github.com/Piotr1215/go-learning/functions"
 )
 
 func main() {

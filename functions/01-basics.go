@@ -2,7 +2,8 @@ package functions
 
 import "fmt"
 
-// Funfunc Functions() {
+// Functions runs basic functions
+func Functions() {
 	x, y := bar()
 	fmt.Println(foo(), x, y)
 	sumMe := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
@@ -21,7 +22,6 @@ import "fmt"
 
 	piotr.speak()
 }
-
 
 func sumInts(ints ...int) int {
 	s := 0

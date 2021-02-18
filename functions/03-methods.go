@@ -18,6 +18,8 @@ func EmployeeMe(name string, age int) (employee, error) {
 		fmt.Println("Errors", err)
 	}
 
+	return em, nil
+
 }
 
 func createEmployee(name string, age int) (employee, error) {
