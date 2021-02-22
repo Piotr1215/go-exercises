@@ -9,7 +9,12 @@ Learning topics with random notes and observations.
 - [x] [Variables, values, types](./exercises/01-variables-value-types.go)
   - Go has type inference and compiler was able to infer type of all variables so far
   - <kbd>:=</kbd> [operator](https://golang.org/ref/spec#Short_variable_declarations) creates a variable and assigns value to it in one statement
-- [ ] Programming fundamentals
+  - ",ok" or **comma ok idiom**:
+    ```go
+    if seconds, ok := timeZone[tz]; ok {
+        return seconds
+    }
+    ```
 - [x] [Control flow](exercises/03-control-flow.go)
 - [x] [Grouping data](exercises/04-grouping-data.go)
 - [x] [Structs](exercises/05-structs.go)
@@ -20,7 +25,7 @@ Learning topics with random notes and observations.
   - interfaces allow to define behavior and polymorphism like in C#
   - not sure if it's idiomatic, but it's possible to use functional composition in Go, like in F#. Looks like this is under callback pattern.
 
-- [ ] Pointers
+- [x] Pointers
   - <kbd>&</kbd> operator shows variable address
   - <kbd>*</kbd> returns a value stored at an address
   - <kbd>*</kbd> with a type like ***int** is a type of pointer
