@@ -27,16 +27,17 @@ Learning topics with random notes and observations.
   - <kbd>:=</kbd> [operator](https://golang.org/ref/spec#Short_variable_declarations) creates a variable and assigns value to it in one statement
   - ",ok" or **comma ok idiom**:
 
-      ```go
-      if seconds, ok := timeZone[tz]; ok {
-          return seconds
-      }
-      ```
+    ```go
+    if seconds, ok := timeZone[tz]; ok {
+        return seconds
+    }
+    ```
 
 - [x] [Control flow](basics/03-control-flow.go)
 - [x] [Grouping data](basics/04-grouping-data.go)
 - [x] [Structs](basics/05-structs.go)
 - [x] [Functions](functions/01-functions.go)
+
   - functions that have receiver (operate on a type), are called methods and usually mutate state
   - functions that are not methods try to be "pure functions"
   - > there is no enforcement of pure functions concept in Go
@@ -44,10 +45,11 @@ Learning topics with random notes and observations.
   - not sure if it's idiomatic, but it's possible to use functional composition in Go, like in F#. Looks like this is under callback pattern.
 
 - [x] [Pointers](pointers/01-pointers.go)
+
   - <kbd>&</kbd> operator shows variable address
-  - <kbd>*</kbd> returns a value stored at an address
-  - <kbd>*</kbd> with a type like ***int** is a type of pointer
-  - <kbd>*</kbd> with a value like ***valueName** is a de-referencing operator to show what value is under a memory address
+  - <kbd>\*</kbd> returns a value stored at an address
+  - <kbd>\*</kbd> with a type like **\*int** is a type of pointer
+  - <kbd>\*</kbd> with a value like **\*valueName** is a de-referencing operator to show what value is under a memory address
   - use pointers with large data sets, instead of passing it by value (similar as passing by reference in C#?)
 
 - [ ] Application
@@ -60,3 +62,4 @@ Learning topics with random notes and observations.
 ## Links & Resources
 
 - [Effective Go](https://golang.org/doc/effective_go)
+
